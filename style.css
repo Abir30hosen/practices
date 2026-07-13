@@ -1,5 +1,69 @@
-body {
+
+* {
+    font-family: "Host Grotesk", sans-serif;
+
+}
+
+body { 
     max-height: 4,501px;
     max-width: 1,440px;
+    margin: 0 auto; 
+}
+.common-btn {
+    background: #E8BA2E;
+;
+    padding: 12px 40px;
+    border-radius: 10px;
+    font-weight: 66px;
+    font-size: 16px;
+    color: #000102;
+    border: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+/* Nav section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 24px 25px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 24px;
+    margin-right: 247px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Hero section style */
+.hero-parent {
+    display: flex;
+    background-image: url(./image/Background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-height: 880px;
+}
+.hero-content {
+    text-align: start;
+    margin-top: 248px;
+}
+.hero-content-top h1{
+    font-size: 88px;
+    font-weight: 700px;
+    color: #FFFFFF;
 }
